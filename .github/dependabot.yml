@@ -8,4 +8,5 @@ updates:
       # Check for updates to 
       interval: "daily"
     target-branch: "develop"
-    labels: "security"
+    labels:
+      - "security"
