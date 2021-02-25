@@ -2,7 +2,7 @@ version: 1
 update_configs:
   - package_manager: "javascript"
     directory: "/"
-    # to start off with run daily as oppose to live
+    # to start off with run daily as oppose to live...
     update_schedule: "live"
     target_branch: "develop"
 
