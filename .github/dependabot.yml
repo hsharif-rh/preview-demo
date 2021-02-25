@@ -1,0 +1,13 @@
+version: 1
+update_configs:
+  - package_manager: "javascript"
+    directory: "/"
+    # to start off with run daily as oppose to live
+    update_schedule: "daily"
+    target_branch: "develop"
+
+    # set default reviewer for trial
+    default_reviewers:
+      - "hsharif-rh"
+    default_labels:
+      - "security"
