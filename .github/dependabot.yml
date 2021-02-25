@@ -1,0 +1,11 @@
+# Set update schedule for each package manager
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      # Check for updates to 
+      interval: "daily"
+    target-branch: "develop"
+    labels: "security"
