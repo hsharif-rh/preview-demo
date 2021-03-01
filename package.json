@@ -9,7 +9,7 @@
     "express-oauth-server": "^2.0.0",
     "minimist": "^1.0.0",
     "node-iterable-api": "0.3.0",
-    "nyc": "^12.0.2",
+    "nyc": "^15.1.0",
     "oauth2-server": "3.0.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
